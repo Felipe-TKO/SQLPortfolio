@@ -25,6 +25,8 @@ Obtained November 2022 for the years Jan 2018 - Oct 2022
 
 The files were downloaded as CSV files, saved as xlsx files and stored/uplaoded in Google Sheets and used in Tablaue and Googles BigQuery SQL Sandbox
 
+https://docs.google.com/spreadsheets/d/1ei5VYA4JCTH9KtYCprJMhGZ-LMtkX_sx/edit?usp=sharing&ouid=108080808687006532923&rtpof=true&sd=true
+
 # Topic 3: Documentation of Data Cleaning and Manipulation #
 All Documentation and version history is readily available in Google Sheets
 Example of functions/formulas used:
@@ -33,6 +35,12 @@ Example of functions/formulas used:
 
 Nulls were kept to display no/empty data in Tablaue
 The average columns were added manually and calculated
+
+SQL Querys used:
+`SELECT state_Name, city_name, the_Avg_2018, the_Avg_2022, ((the_Avg_2022 - the_Avg_2018)/the_Avg_2018) * 100 as percentChange
+FROM `us-median-sale-and-list-price.median_list_price.onlyAvgforAll`
+
+/* Return Percent change in Avg median list price from 2018 to 2022 to show either in increase or decrease in list price */ `
 
 # Topic 4: Visuals #
 Visuals can be seen in the Tableau Public here:

@@ -51,7 +51,6 @@ Where percentChange > 100
 Order by percentChange desc `
 
 "> 100" was used to show the extremes
-and
 
 `SELECT *
 FROM us-median-sale-and-list-price.median_list_price.percentChangefrom2018-2022

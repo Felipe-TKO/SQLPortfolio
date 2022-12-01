@@ -36,7 +36,7 @@ The average columns were added manually and calculated
 
 SQL Querys used:
 
-`SELECT state_Name, city_name, the_Avg_2018, the_Avg_2022, ((the_Avg_2022 - the_Avg_2018)/the_Avg_2018) * 100 as percentChange
+` SELECT state_Name, city_name, the_Avg_2018, the_Avg_2022, ((the_Avg_2022 - the_Avg_2018)/the_Avg_2018) * 100 as percentChange
 FROM us-median-sale-and-list-price.median_list_price.onlyAvgforAll
 
 /* Return Percent change in Avg median list price from 2018 to 2022 to show either in increase or decrease in list price */ `

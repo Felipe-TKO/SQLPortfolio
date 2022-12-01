@@ -1,6 +1,8 @@
 Hello and welcome!
 This Project is to show the average median list price of homes listed on zillow for the year 2018-2022
 
+The files above are the results of the queried data from topic 3
+
 The following will be covered:
 * The business task
 * Description of all data sources used
@@ -48,6 +50,7 @@ FROM us-median-sale-and-list-price.median_list_price.percentChangefrom2018-2022
 Where percentChange > 100
 Order by percentChange desc `
 
+"> 100" was used to show the extremes
 and
 
 `SELECT *

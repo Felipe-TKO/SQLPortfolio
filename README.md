@@ -1,8 +1,6 @@
 Hello and welcome!
 This Project is to show the average median list price of homes listed on zillow for the year 2018-2022
 
-SQL Folder for SQL querys used included
-
 The following will be covered:
 * The business task
 * Description of all data sources used
@@ -38,9 +36,23 @@ The average columns were added manually and calculated
 
 SQL Querys used:
 `SELECT state_Name, city_name, the_Avg_2018, the_Avg_2022, ((the_Avg_2022 - the_Avg_2018)/the_Avg_2018) * 100 as percentChange
-FROM `us-median-sale-and-list-price.median_list_price.onlyAvgforAll`
+FROM us-median-sale-and-list-price.median_list_price.onlyAvgforAll
 
 /* Return Percent change in Avg median list price from 2018 to 2022 to show either in increase or decrease in list price */ `
+
+Table was saved from this query in order to isolate negative and postive percent changes. This table was then queried:
+
+`SELECT *
+FROM us-median-sale-and-list-price.median_list_price.percentChangefrom2018-2022
+Where percentChange > 100
+Order by percentChange desc `
+
+and
+
+`SELECT *
+FROM us-median-sale-and-list-price.median_list_price.percentChangefrom2018-2022
+Where percentChange < 0
+Order by percentChange asc `
 
 # Topic 4: Visuals #
 Visuals can be seen in the Tableau Public here:

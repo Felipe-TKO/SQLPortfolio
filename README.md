@@ -38,7 +38,7 @@ The average columns were added manually and calculated
 Visuals can be seen in the Tableau Public here:
 https://public.tableau.com/app/profile/khristian.rodriguez/viz/ZillowMedianListSalePrice-MetroU_S_/Story1#1
 
-#Topic 5: Top Recommendations based on analysis #
+# Topic 5: Top Recommendations based on analysis #
 Investigate why there are cities that saw a negative percent change in avg median Home list price.
 Texas has a 263% increase in avg median list price from 2018-2022. Best place for investors to sell homes.
 

@@ -35,6 +35,7 @@ Nulls were kept to display no/empty data in Tablaue
 The average columns were added manually and calculated
 
 SQL Querys used:
+
 `SELECT state_Name, city_name, the_Avg_2018, the_Avg_2022, ((the_Avg_2022 - the_Avg_2018)/the_Avg_2018) * 100 as percentChange
 FROM us-median-sale-and-list-price.median_list_price.onlyAvgforAll
 

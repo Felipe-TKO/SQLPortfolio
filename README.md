@@ -39,9 +39,9 @@ The average columns were added manually and calculated
 SQL Querys used:
 
 ` SELECT state_Name, city_name, the_Avg_2018, the_Avg_2022, ((the_Avg_2022 - the_Avg_2018)/the_Avg_2018) * 100 as percentChange
-FROM us-median-sale-and-list-price.median_list_price.onlyAvgforAll
+FROM us-median-sale-and-list-price.median_list_price.onlyAvgforAll `
 
-/* Return Percent change in Avg median list price from 2018 to 2022 to show either in increase or decrease in list price */ `
+/* Return Percent change in Avg median list price from 2018 to 2022 to show either in increase or decrease in list price */ 
 
 Table was saved from this query in order to isolate negative and postive percent changes. This table was then queried:
 
@@ -50,7 +50,7 @@ FROM us-median-sale-and-list-price.median_list_price.percentChangefrom2018-2022
 Where percentChange > 100
 Order by percentChange desc `
 
-"> 100" was used to show the extremes
+This query is to show which cities doubled in list price from 2018 to 2022
 
 `SELECT *
 FROM us-median-sale-and-list-price.median_list_price.percentChangefrom2018-2022
@@ -63,7 +63,6 @@ https://public.tableau.com/app/profile/khristian.rodriguez/viz/ZillowMedianListS
 
 # Topic 5: Top Recommendations based on analysis #
 Investigate why there are cities that saw a negative percent change in avg median Home list price.
-Texas has a 263% increase in avg median list price from 2018-2022. Best place for investors to sell homes.
-
+The top 6 cities that have doubled their list prices over the last 5 years:
 
 

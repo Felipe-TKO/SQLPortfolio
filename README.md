@@ -4,7 +4,7 @@ This Project is to show the average median list price of homes listed on zillow 
 The files above are the results of the queried data from topic 3
 
 The following will be covered:
-* The business task
+* Project Overview
 * Description of all data sources used
 * Documentation of Data Cleaning and manipulation
 * Visuals
@@ -13,8 +13,8 @@ The following will be covered:
 # Topic 1: The Business Task #
 
 How has the past 5 years impacted the average home list price in the U.S.?
-Which cities saw a negative percent change in avg list price?
-Which cities saw over 100% increase in avg list price?
+Which cities encounter a loss/drop in avg list price?
+Which cities doubled their avg list price?
 
 # Topic 2: Description of all data sources used #
 
